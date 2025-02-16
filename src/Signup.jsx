@@ -42,7 +42,7 @@ const Signup = () => {
         <input
           type="text"
           placeholder="Enter your full name"
-          className="p-3 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+          className="p-3 border border-gray-300 py-4 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           required
         />
 
@@ -50,7 +50,7 @@ const Signup = () => {
         <input
           type="email"
           placeholder="Enter email address"
-          className="p-3 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+          className="p-3 border border-gray-300 py-4 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           required
         />
 
@@ -58,13 +58,13 @@ const Signup = () => {
         <input
           type="password"
           placeholder="Enter password"
-          className="p-3 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+          className="p-3 border border-gray-300 py-4 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           required
         />
 
       
 
-        <Button className="w-full bg-indigo-600 text-white py-3 rounded-md text-sm font-medium hover:bg-indigo-700 transition" 
+        <Button className="w-full bg-indigo-600 text-white  py-6 rounded-md text-sm font-medium hover:bg-indigo-700 transition" 
         variant="outline">Continue</Button>
 
       </form>
