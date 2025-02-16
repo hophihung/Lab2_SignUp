@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Input } from "@/components/ui/input"
 // import { Label } from "@/components/ui/label"
+import { Button } from "@/components/ui/button"
 
 
 const Signup = () => {
@@ -10,17 +11,22 @@ const Signup = () => {
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900">
         Get more opportunities
       </h1>
-      
-      {/* <div className="grid w-full max-w-sm items-center gap-1.5">
+{/*       
+      <div className="grid w-full max-w-sm items-center gap-1.5">
       <Label htmlFor="email">Email</Label>
       <Input type="email" id="email" placeholder="Email" />
     </div> */}
 
+        <Button className="w-full max-w-sm flex items-center justify-center gap-2 border border-gray-300 rounded-md py-6 px-4 text-sm font-medium text-gray-700 hover:bg-gray-100 transition" 
+        >
+        <span className="text-blue-600 text-lg">+</span> Sign Up with Google
+        </Button>
+
 
       {/* Google Sign Up Button */}
-      <button className="w-full max-w-sm flex items-center justify-center gap-2 border border-gray-300 rounded-md py-3 px-4 text-sm font-medium text-gray-700 hover:bg-gray-100 transition">
+      {/* <button className="w-full max-w-sm flex items-center justify-center gap-2 border border-gray-300 rounded-md py-3 px-4 text-sm font-medium text-gray-700 hover:bg-gray-100 transition">
         <span className="text-blue-600 text-lg">+</span> Sign Up with Google
-      </button>
+      </button> */}
       
 
       {/* Divider */}
@@ -56,12 +62,11 @@ const Signup = () => {
           required
         />
 
-        <button
-          type="submit"
-          className="w-full bg-indigo-600 text-white py-3 rounded-md text-sm font-medium hover:bg-indigo-700 transition"
-        >
-          Continue
-        </button>
+      
+
+        <Button className="w-full bg-indigo-600 text-white py-3 rounded-md text-sm font-medium hover:bg-indigo-700 transition" 
+        variant="outline">Continue</Button>
+
       </form>
 
       {/* Login Link */}
